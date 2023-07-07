@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 60%;
+}
+
+#title {
+    color: rgb(253, 228, 0);
+    font-size: 32px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 20px 0;
+        width: 70%;
+    }
+    
+    #title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #title {
+        font-size: 20px;
+    }
+}

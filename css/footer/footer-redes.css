@@ -1,0 +1,8 @@
+.footer__redes {
+    color: rgb(253, 228, 0);
+    margin-right: 8px;
+}
+
+.footer__redes:hover {
+transform: translateY(-3px) scale(1.15);
+}    

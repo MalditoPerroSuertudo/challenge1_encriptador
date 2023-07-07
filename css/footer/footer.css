@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    background: rgba(146, 0, 243, 0.548);
+}
+
+@media screen and (max-width: 1023px) {
+    
+    }

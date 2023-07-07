@@ -1,0 +1,12 @@
+.izq__btns {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .izq__btns {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

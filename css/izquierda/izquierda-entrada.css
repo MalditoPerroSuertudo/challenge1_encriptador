@@ -1,0 +1,17 @@
+#izq__entrada {
+    border: none;
+    color: rgb(253, 228, 0);
+    font-size: 20px;
+    background: rgb(92, 8, 148);
+    padding: 15px;
+    height: 50vh;
+}
+
+#izq__entrada::placeholder {
+    color: rgb(253, 228, 0);
+    font-size: 25px;
+}
+
+#izq__entrada:focus {
+    outline: none;
+}

@@ -1,0 +1,30 @@
+#izq__btns__encriptar {
+    background-color: rgb(253, 228, 0);
+    border: 1px solid rgba(146, 0, 243, 0.548);
+    border-radius: 24px;
+    color: rgba(146, 0, 243, 0.548);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 47px;
+    width: 263px;
+}
+
+#izq__btns__encriptar:hover {
+    background: rgba(146, 0, 243, 0.548);
+    color: #fff;
+    box-shadow: 0 6px 16px #0a3871;
+    transition: all 0.2s ease;
+    }
+
+@media screen and (max-width: 1023px) {
+    #izq__btns__encriptar {
+        width: 40%;
+    }
+}    
+
+    @media screen and (max-width: 767px) {
+        #izq__btns__encriptar {
+            width: 85%;
+        }
+    }
